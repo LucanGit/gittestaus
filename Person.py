@@ -23,7 +23,6 @@ class Person:
     def __str__(self):
         return f"Hi, I'm {self.name} and I am ({self.age}) years old"
  
-
     @property
     def city(self, _default = None):
         return self._city
