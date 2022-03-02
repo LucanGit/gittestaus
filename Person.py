@@ -20,7 +20,7 @@ class Person:
         return f"Hi, I'm {self.name} and I am ({self.age}) years old"
 
     
-testi = Person("Timo", 35)
+testi = Person("Timo", 34)
 
 print(testi.name)
 print(testi.age)
